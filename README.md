@@ -35,16 +35,10 @@ Dự án được xây dựng với các tính năng hiện đại, sử dụng 
 * **Tổ chức code sạch sẽ:** Mã nguồn HTML, CSS, và JavaScript được chia theo từng thư mục riêng biệt, giúp việc bảo trì và mở rộng các tính năng trong tương lai (project, blog...) trở nên dễ dàng. Đây là nền tảng tốt cho một trang Portfolio cá nhân.
 
 ###🛠️ 5. Công Cụ Sử Dụng
-Visual Studio Code: Trình soạn thảo mã nguồn chính được sử dụng để phát triển dự án.
-
-Git & GitHub Desktop: Hệ thống quản lý phiên bản để theo dõi thay đổi và lưu trữ code an toàn trên GitHub.
-
-Live Server (VS Code Extension): Tiện ích giúp tạo một server phát triển local với khả năng tự động tải lại trang.
-
-Browser Developer Tools (F12): Công cụ tích hợp trên trình duyệt (Chrome/Opera) để kiểm tra, gỡ lỗi HTML, CSS và JavaScript.
-
-Font Awesome: Thư viện icon được sử dụng để hiển thị các biểu tượng mạng xã hội.
-
+* **Visual Studio Code: Trình soạn thảo mã nguồn chính được sử dụng để phát triển dự án.
+* **Live Server (VS Code Extension): Tiện ích giúp tạo một server phát triển local với khả năng tự động tải lại trang.
+* **Browser Developer Tools (F12): Công cụ tích hợp trên trình duyệt (Chrome/Opera) để kiểm tra, gỡ lỗi HTML, CSS và JavaScript.
+* **Font Awesome: Thư viện icon được sử dụng để hiển thị các biểu tượng mạng xã hội.
 ---
 
 ## 🚀 Cài đặt & Chạy dự án
