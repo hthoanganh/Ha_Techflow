@@ -2,7 +2,7 @@
 
 Chào mừng bạn đến với dự án trang web cá nhân của tôi! Đây không chỉ là nơi giới thiệu thông tin mà còn là một sản phẩm thể hiện niềm đam mê với lập trình front-end, tập trung vào việc tạo ra một trải nghiệm người dùng mượt mà, hiện đại và ấn tượng về mặt thị giác.
 
-**Xem trực tiếp tại:** https://hthoanganh.github.io/Ha_Techflow/
+## 🌐 Xem trực tiếp online (GitHub Pages): https://hthoanganh.github.io/Ha_Techflow/
 
 **Demo**![Screenshot 2025-07-07 225914](https://github.com/user-attachments/assets/3daa4c71-d724-4c27-95e1-2919e7e361b0)
 ![Screenshot 2025-07-07 225932](https://github.com/user-attachments/assets/74f661bd-4237-4904-8e75-7b3d20fbba98)
@@ -56,12 +56,23 @@ Dự án được xây dựng với các tính năng hiện đại, sử dụng 
     * **Event Listeners** để xử lý các tương tác của người dùng như `click` và `scroll`.
     * **Intersection Observer API** để phát hiện khi nào các phần tử xuất hiện trong khung nhìn.
 ---
-## 🌐 Xem trực tiếp online (GitHub Pages)
+## 🚀 Cài đặt & Chạy dự án
 
-Bạn có thể truy cập phiên bản chạy thực tế của website tại:
+1. **Clone repository về máy:**
+    ```bash
+    git clone https://github.com/hthoanganh/Ha_Techflow.git
+    ```
 
-👉 **[https://hthoanganh.github.io/Ha_Techflow/](https://hthoanganh.github.io/Ha_Techflow/)**
+2. **Mở thư mục dự án:**
+    ```bash
+    cd Ha_Techflow
+    ```
 
+3. **Chạy dự án:**
+    - Mở file `index.html` bằng trình duyệt
+    - ✅ Khuyến khích dùng tiện ích **Live Server** trong VS Code để:
+        - Xem web trực tiếp khi sửa
+        - Tự động reload sau khi `Ctrl + S`
 ---
 
 ## 🧑‍💻 Tác giả
