@@ -39,8 +39,18 @@ Dự án được xây dựng với các tính năng hiện đại, sử dụng 
 * **Live Server (VS Code Extension): Tiện ích giúp tạo một server phát triển local với khả năng tự động tải lại trang.
 * **Browser Developer Tools (F12): Công cụ tích hợp trên trình duyệt (Chrome/Opera) để kiểm tra, gỡ lỗi HTML, CSS và JavaScript.
 * **Font Awesome: Thư viện icon được sử dụng để hiển thị các biểu tượng mạng xã hội.
----
 
+* 😎 Dự án này được xây dựng hoàn toàn bằng các công nghệ web nền tảng:
+* **HTML5:** Xây dựng cấu trúc và nội dung ngữ nghĩa cho trang web.
+* **CSS3:**
+    * Sử dụng **Flexbox** để tạo bố cục linh hoạt.
+    * **Media Queries** để xây dựng giao diện responsive.
+    * Tận dụng các thuộc tính nâng cao như `backdrop-filter`, `transform` và `transition` để tạo hiệu ứng.
+* **JavaScript (Vanilla JS):**
+    * **DOM Manipulation** để thay đổi nội dung và class.
+    * **Event Listeners** để xử lý các tương tác của người dùng như `click` và `scroll`.
+    * **Intersection Observer API** để phát hiện khi nào các phần tử xuất hiện trong khung nhìn.
+---
 ## 🚀 Cài đặt & Chạy dự án
 
 1.  **Clone repository:**
