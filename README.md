@@ -56,19 +56,24 @@ Dự án được xây dựng với các tính năng hiện đại, sử dụng 
     * **Event Listeners** để xử lý các tương tác của người dùng như `click` và `scroll`.
     * **Intersection Observer API** để phát hiện khi nào các phần tử xuất hiện trong khung nhìn.
 ---
-## 🚀 Cài đặt & Chạy dự án
+## 🌐 Xem trực tiếp online (GitHub Pages)
 
-1.  **Clone repository:**
-    ```bash
-    git clone [https://github.com/ten-cua-em/ha-techflow.git](https://github.com/ten-cua-em/ha-techflow.git)
-    ```
-2.  **Mở thư mục dự án:**
-    ```bash
-    cd ha-techflow
-    ```
-3.  **Chạy dự án:**
-    * Mở file `index.html` bằng trình duyệt.
-    * **Khuyến khích:** Sử dụng tiện ích **Live Server** trong VS Code để có trải nghiệm tốt nhất và tự động tải lại trang.
+Bạn có thể truy cập phiên bản chạy thực tế của website tại:
+
+👉 **[https://hthoanganh.github.io/Ha_Techflow/](https://hthoanganh.github.io/Ha_Techflow/)**
+
+---
+
+## 🧑‍💻 Tác giả
+
+- 💼 Tên: **Hoàng Anh**
+- 📬 Email: htha4067@gmail.com
+
+---
+
+## 📜 Giấy phép
+
+MIT License - Dùng tự do cho mục đích cá nhân và học tập.
 
 ---
 
