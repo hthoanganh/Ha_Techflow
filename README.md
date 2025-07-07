@@ -7,6 +7,8 @@ Chào mừng bạn đến với dự án trang web cá nhân của tôi! Đây k
 **Demo**![Screenshot 2025-07-07 225914](https://github.com/user-attachments/assets/3daa4c71-d724-4c27-95e1-2919e7e361b0)
 ![Screenshot 2025-07-07 225932](https://github.com/user-attachments/assets/74f661bd-4237-4904-8e75-7b3d20fbba98)
 ![Screenshot 2025-07-07 225943](https://github.com/user-attachments/assets/a219d731-200c-433f-ac4f-1f4fd6635666)
+
+Dark-mode
 ![Screenshot 2025-07-07 230010](https://github.com/user-attachments/assets/8feae25b-8914-4de2-bf8a-77965c9b261d)
 ![Screenshot 2025-07-07 230035](https://github.com/user-attachments/assets/9618820c-5d62-4292-8b10-63d0aba647d0)
 
