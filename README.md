@@ -40,7 +40,7 @@ Dự án được xây dựng với các tính năng hiện đại, sử dụng 
 * **Browser Developer Tools (F12): Công cụ tích hợp trên trình duyệt (Chrome/Opera) để kiểm tra, gỡ lỗi HTML, CSS và JavaScript.
 * **Font Awesome: Thư viện icon được sử dụng để hiển thị các biểu tượng mạng xã hội.
 
-* 😎 Dự án này được xây dựng hoàn toàn bằng các công nghệ web nền tảng:
+  😎 Dự án này được xây dựng hoàn toàn bằng các công nghệ web nền tảng:
 * **HTML5:** Xây dựng cấu trúc và nội dung ngữ nghĩa cho trang web.
 * **CSS3:**
     * Sử dụng **Flexbox** để tạo bố cục linh hoạt.
