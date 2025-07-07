@@ -1,0 +1,256 @@
+/* === Áp dụng cho toàn bộ trang === */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-image: url('../images/nen.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(0,0,0,0.2));
+    z-index: -1;
+}
+h1 {
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* === Liên kết trong card === */
+.card a {
+    color: #1f198c; /* màu tím xanh đồng bộ */
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.card a:hover {
+    color: #ffffff; /* sáng hơn khi hover */
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card a i {
+    font-size: 18px;
+}
+
+.card {
+    opacity: 0;
+    transform: translateY(30px);
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1.5px solid rgba(108, 132, 212, 0.4); /* 👈 Viền mới */
+    box-shadow: 0 8px 32px 0 rgba(4, 24, 80, 0.264);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #1f198c;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.skill-item:hover {
+    background-color: #4a4a80;
+    transform: scale(1.05);
+}
+
+/* === Dark Mode === */
+body.dark-mode {
+    color: #f5f5f5;
+}
+body.dark-mode .card {
+    background: rgba(77, 77, 77, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+body.dark-mode h1, body.dark-mode h2 {
+    color: #ffffff;
+}
+body.dark-mode p, body.dark-mode li {
+    color: #e0e0e0;
+}
+body.dark-mode a {
+    color: #0027d4;
+}
+body.dark-mode .skill-item {
+    background-color: #4059c5;
+}
+body.dark-mode .skill-item:hover {
+    background-color: #4a4a80;
+    transform: scale(1.05);
+}
+
+/* === Sticky Header trong Dark Mode === */
+body.dark-mode #sticky-header {
+    background: rgba(30, 30, 30, 0.7); /* nền header tối */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* viền mờ hơn */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode #sticky-header .site-title {
+    color: #fff; /* chữ trắng */
+}
+
+body.dark-mode #sticky-header .profile-pic-small {
+    border-color: #fff;
+}
+
+
+/* === Sticky Header === */
+#sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: rgba(34, 53, 81, 0.5); /* 🌟 Nền kính mờ sáng */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 20px rgba(2, 54, 114, 0.918); /* 🌈 Viền màu xanh ánh tím */
+    transform: translateY(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+#sticky-header.visible {
+    transform: translateY(0);
+}
+
+#sticky-header .site-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#sticky-header .profile-pic-small {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    margin-right: 60px;/* ảnh thu nhỏ sẽ nằm bên phải */
+}
+
+#sticky-header.visible .profile-pic-small {
+    opacity: 1;
+}
+#sticky-header.visible ~ .container #header #main-profile-pic {
+    opacity: 0;
+}
+
+
+/* === Ảnh lớn co mờ khi cuộn bằng class an toàn === */
+#main-profile-pic {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+body.sticky-active #main-profile-pic {
+    opacity: 0;
+}
+
+/* === Responsive === */
+@media (max-width: 820px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    #sticky-header {
+        padding: 10px 20px;
+    }
+    #sticky-header .site-title {
+        font-size: 1em;
+    }
+    
+}
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.card {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+#interactive-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#interactive-button:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: rgba(136, 161, 234, 0.4);
+    transform: scale(1.05);
+   
+}
+#sticky-header.visible .profile-pic-small {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+    
+}
+
+
