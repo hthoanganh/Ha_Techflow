@@ -2,7 +2,7 @@
 
 Chào mừng bạn đến với dự án trang web cá nhân của tôi! Đây không chỉ là nơi giới thiệu thông tin mà còn là một sản phẩm thể hiện niềm đam mê với lập trình front-end, tập trung vào việc tạo ra một trải nghiệm người dùng mượt mà, hiện đại và ấn tượng về mặt thị giác.
 
-**Xem trực tiếp tại:** `[Link đến trang web của bạn]`
+**Xem trực tiếp tại:** https://hthoanganh.github.io/Ha_Techflow/
 
 ![Ảnh chụp trang web](https://i.imgur.com/g8vJg2G.jpg) 
 *Ghi chú: Bạn hãy chụp một tấm ảnh đẹp nhất của trang web và thay thế link trên nhé!*
